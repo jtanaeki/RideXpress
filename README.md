@@ -8,7 +8,7 @@ RideXpress is a software platform giving RideXpress employees the ability to add
 
 ## Setting Up Local Environment
 
-These instructions will help you set up a local development environment, run the project on your machine for development and testing purposes, and deploy it on a live system. See [Deployment](https://github.com/jtanaeki/RideXpress/blob/main/README.md#deployment) for notes on how to deploy the project. See [Contributing](https://github.com/jtanaeki/RideXpress/blob/main/README.md#contributing) in order to contribute to this repository.
+These instructions will help you set up a local development environment, run the project on your machine for development and testing purposes, and deploy it on a live system. See [Deployment](https://github.com/jtanaeki/RideXpress/blob/main/README.md#deployment) for notes on how to deploy the project. See [Contributing](https://github.com/jtanaeki/RideXpress/blob/main/README.md#contributing) for notes on how to contribute to this repository.
 
 ## Deployment
 
