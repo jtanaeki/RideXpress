@@ -19,6 +19,25 @@ After installing the necessary software, you can clone a local copy of the repos
 git clone https://github.com/jtanaeki/RideXpress.git
 ```
 
+## Running the Application
+### Tables in Database
+![Image of Database Tables](https://user-images.githubusercontent.com/55217672/111884697-b2574f00-8999-11eb-9bb5-698b4473b0ba.png)
+
+
+## Tools Used
+### Servers
+* [Internet Information Services (IIS)](https://www.iis.net/)
+
+### Databases
+* [SQL Server](https://www.microsoft.com/en-us/sql-server/)
+
+### Languages & Frameworks
+* [ASP.NET](https://dotnet.microsoft.com/apps/aspnet)
+* [C#](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
+
 ## Deployment
+### Sample Page
+![Image of Sample Page](https://user-images.githubusercontent.com/55217672/111884969-40800500-899b-11eb-814b-15a6e970e0d7.png)
+
 
 ## Contributing
