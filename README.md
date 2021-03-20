@@ -37,7 +37,8 @@ git clone https://github.com/jtanaeki/RideXpress.git
 
 ## Deployment
 ### Sample Page
-![Image of Sample Page](https://user-images.githubusercontent.com/55217672/111884969-40800500-899b-11eb-814b-15a6e970e0d7.png)
+![Image of Sample Page](https://user-images.githubusercontent.com/55217672/111885538-d36e6e80-899e-11eb-9a21-50889e8c1c5b.png)
+
 
 
 ## Contributing
