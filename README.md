@@ -41,8 +41,13 @@ git clone https://github.com/jtanaeki/RideXpress.git
 ## Deployment
 ### Enabling IIS Features
 Before using Visual Studio to deploy the application through Internet Information Services (IIS), you must make sure the features for IIS are enabled:
-1. Go to Control Panel → Programs → Turn Windows features on or off (Alternatively, you can type 'Turn Windows features on or off' in the search box next to the Start Menu)
-2. 
+1. Go to Control Panel → Programs → Turn Windows features on or off (Alternatively, you can type "Turn Windows features on or off" in the search box next to the Start Menu).
+2. Make sure "Internet Information Services" and "Internet Information Services Hostable Web Core" are selected.
+3. Expand the "Internet Information Services" folder → Expand the "World Wide Web Services" folder → Expand the "Application Development Features".
+4. Select the latest ASP.NET version (4.0+). Other required folders will then automatically be selected.
+5. Click OK.
+6. Windows will search for the required files and apply changes.
+7. Click Close.
 
 ### Sample Page
 ![Image of Sample Page](https://user-images.githubusercontent.com/55217672/111885538-d36e6e80-899e-11eb-9a21-50889e8c1c5b.png)
