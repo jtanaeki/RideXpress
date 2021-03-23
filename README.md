@@ -7,12 +7,12 @@
 RideXpress is a software platform giving RideXpress employees the ability to add and edit the car inventory available and also the ability to create new incident reports for each car available in the inventory.
 
 ## Setting Up Local Environment
-These instructions will help you set up a local development environment, run the project on your machine for development and testing purposes, and deploy it on a live system. See [Deployment](https://github.com/jtanaeki/RideXpress/blob/main/README.md#deployment) for notes on how to deploy the project. See [Contributing](https://github.com/jtanaeki/RideXpress/blob/main/README.md#contributing) for notes on how to contribute to this repository.
+The following instructions will help you set up a local development environment, run the project on your machine for development and testing purposes, and deploy it on a live system. See [Deployment](https://github.com/jtanaeki/RideXpress/blob/main/README.md#deployment) for notes on how to deploy the project. See [Contributing](https://github.com/jtanaeki/RideXpress/blob/main/README.md#contributing) for notes on how to contribute to this repository.
 
 ### Prerequisites
 Before building and testing the application, you must make sure to have any IDE installed that supports .NET Core development, such as the latest version of [Visual Studio Community](https://visualstudio.microsoft.com/downloads/#). You will also need to install [SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) on your system.
 
-If you are running the application on the command line, you will need to download and install the latest version of [.NET Core SDK](https://dotnet.microsoft.com/download).
+If you are running the application on the command line, you will need to download and install the latest version of [.NET SDK and .NET Core SDK](https://dotnet.microsoft.com/download).
 
 ### Cloning the Repository
 After installing the necessary software, you can clone a local copy of the repository. A [ZIP file version](https://github.com/jtanaeki/RideXpress/archive/refs/heads/main.zip) of the copy can be downloaded, or you can clone the repository directly over HTTPS from the command line:
@@ -25,7 +25,36 @@ git clone https://github.com/jtanaeki/RideXpress.git
 ![Image of Database Tables](https://user-images.githubusercontent.com/55217672/111884697-b2574f00-8999-11eb-9bb5-698b4473b0ba.png)
 
 ## Running the Application
+The following instructions will help you get the program running via your preferred IDE or from the command line.
 
+### Running With Visual Studio
+To run the application with Visual Studio, open the file, `RideXpress.sln`. To debug, run the server by pressing `F5`.
+
+### Running With Visual Studio Code
+To run the application with Visual Studio Code, you will first need to open the repository directory using the `Open Folder...` option.
+
+Second, make sure [the recommended extensions for the workspace are installed](https://code.visualstudio.com/docs/editor/extension-gallery#_recommended-extensions). Note that extension recommendations are classified as either "Workspace Recommendations" or "Other Recommendations", but only the "Workspace Recommendations" are required.
+
+After the required extensions are installed, you can run the server by pressing `F5` to debug.
+
+### Running From The Command Line
+To run the application from the command line, you can use the `dotnet run` command. Assuming the repository is cloned into a directory named `RideXpress`:
+
+```bash
+cd RideXpress         # Move into the repository directory
+dotnet run --project RideXpress --webdir /absolute/path/to/RideXpress-web/dist          # Run the server startup project
+```
+
+A second option is to build the application and then run the resulting executable file directly. When running the executable directly, you can add command line options. Add the `--help` flag to list details on all the supported command line options. Assuming .NET 5.0 is installed on your system:
+
+1. Build the project
+
+    ```bash
+    dotnet build          # Build the project
+    cd bin/Debug/net5.0         # Change into the build output directory
+    ```
+
+2. Execute the build output. On Linux, Mac, etc. use `./RideXpress` and on Windows use `RideXpress.exe`.
 
 ## Tools Used
 ### Servers
