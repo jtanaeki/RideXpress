@@ -38,14 +38,7 @@ Second, make sure [the recommended extensions for the workspace are installed](h
 After the required extensions are installed, you can run the server by pressing `F5` to debug.
 
 ### Running From The Command Line
-To run the application from the command line, you can use the `dotnet run` command. Assuming the repository is cloned into a directory named `RideXpress`:
-
-```bash
-cd RideXpress         # Move into the repository directory
-dotnet run --project RideXpress --webdir /absolute/path/to/RideXpress-web/dist          # Run the server startup project
-```
-
-A second option is to build the application and then run the resulting executable file directly. When running the executable directly, you can add command line options. Add the `--help` flag to list details on all the supported command line options. Assuming .NET 5.0 is installed on your system:
+To run the application from the command line, build the application and then run the resulting executable file directly. When running the executable directly, you can add command line options. Add the `--help` flag to list details on all the supported command line options. Assuming .NET 5.0 is installed on your system:
 
 1. Build the project
 
@@ -55,17 +48,6 @@ A second option is to build the application and then run the resulting executabl
     ```
 
 2. Execute the build output. On Linux, Mac, etc. use `./RideXpress` and on Windows use `RideXpress.exe`.
-
-## Tools Used
-### Servers
-* [Internet Information Services (IIS)](https://www.iis.net/)
-
-### Databases
-* [SQL Server](https://www.microsoft.com/en-us/sql-server/)
-
-### Languages & Frameworks
-* [ASP.NET](https://dotnet.microsoft.com/apps/aspnet)
-* [C#](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
 
 ## Deployment
 ### Enabling IIS Features
@@ -78,9 +60,21 @@ Before using Visual Studio to deploy the application through Internet Informatio
 6. Windows will search for the required files and apply changes.
 7. Click Close.
 
+### Deploying Locally
+Please read, [Deploy an app to a folder using Visual Studio](https://docs.microsoft.com/en-us/visualstudio/deployment/quickstart-deploy-to-local-folder?view=vs-2019), for step-by-step instructions on publishing the application to a local folder. Remmber to connect with SQL Server.
+
 ### Sample Page
 ![Image of Sample Page](https://user-images.githubusercontent.com/55217672/111885538-d36e6e80-899e-11eb-9a21-50889e8c1c5b.png)
 
+## Tools Used
+### Servers
+* [Internet Information Services (IIS)](https://www.iis.net/)
 
+### Databases
+* [SQL Server](https://www.microsoft.com/en-us/sql-server/)
+
+### Languages & Frameworks
+* [ASP.NET](https://dotnet.microsoft.com/apps/aspnet)
+* [C#](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
 
 ## Contributing
