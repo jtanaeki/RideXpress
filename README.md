@@ -61,7 +61,7 @@ Before using Visual Studio to deploy the application through Internet Informatio
 7. Click Close.
 
 ### Deploying Locally
-Please read, [Deploy an app to a folder using Visual Studio](https://docs.microsoft.com/en-us/visualstudio/deployment/quickstart-deploy-to-local-folder?view=vs-2019), for step-by-step instructions on publishing the application to a local folder. Remmber to connect with SQL Server.
+Please read, [Deploy an app to a folder using Visual Studio](https://docs.microsoft.com/en-us/visualstudio/deployment/quickstart-deploy-to-local-folder?view=vs-2019), for step-by-step instructions on publishing the application to a local folder. Remember to connect with SQL Server.
 
 ### Sample Page
 ![Image of Sample Page](https://user-images.githubusercontent.com/55217672/111885538-d36e6e80-899e-11eb-9a21-50889e8c1c5b.png)
