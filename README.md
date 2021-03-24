@@ -10,7 +10,7 @@
 RideXpress is a software platform giving RideXpress employees the ability to add and edit the car inventory available and also the ability to create new incident reports for each car available in the inventory.
 
 ## Setting Up Local Environment
-The following instructions will help you set up a local development environment, run the project on your machine for development and testing purposes, and deploy it on a live system. See [Deployment](https://github.com/jtanaeki/RideXpress/blob/main/README.md#deployment) for notes on how to deploy the project. See [Contributing](https://github.com/jtanaeki/RideXpress/blob/main/README.md#contributing) for notes on how to contribute to this repository.
+The following instructions will help you set up a local development environment, run the project on your machine for development and testing purposes, and deploy it on a live system. See [Deployment](https://github.com/jtanaeki/RideXpress/blob/main/README.md#deployment) for notes on how to deploy the project. See [How to Discuss and Contribute](https://github.com/jtanaeki/RideXpress#how-to-discuss-and-contribute) for notes on how to contribute to this repository.
 
 ### Prerequisites
 Before building and testing the application, you must make sure to have any IDE installed that supports .NET Core development, such as the latest version of [Visual Studio Community](https://visualstudio.microsoft.com/downloads/#). You will also need to install [SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) on your system.
@@ -64,7 +64,7 @@ Before using Visual Studio to deploy the application through Internet Informatio
 7. Click Close.
 
 ### Deploying Locally
-Please read, [Deploy an app to a folder using Visual Studio](https://docs.microsoft.com/en-us/visualstudio/deployment/quickstart-deploy-to-local-folder?view=vs-2019), for step-by-step instructions on publishing the application to a local folder. Remember to connect with SQL Server.
+Please read [Deploy an app to a folder using Visual Studio](https://docs.microsoft.com/en-us/visualstudio/deployment/quickstart-deploy-to-local-folder?view=vs-2019) for step-by-step instructions on publishing the application to a local folder. Remember to connect with SQL Server.
 
 ### Sample Page
 ![Image of Sample Page](https://user-images.githubusercontent.com/55217672/111885538-d36e6e80-899e-11eb-9a21-50889e8c1c5b.png)
