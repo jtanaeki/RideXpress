@@ -1,7 +1,7 @@
 # RideXpress <img align="right" width="400" height="267" src="RideXpress/Images/350zWheel.jpg">
 ### Incident Management Software System
 <br>
-<a href="code_of_conduct.md">
+<a href="CODE_OF_CONDUCT.md">
     <img alt="Contributor Covenant" src="https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg" />
 </a>
 
@@ -81,4 +81,4 @@ Please read [Deploy an app to a folder using Visual Studio](https://docs.microso
 * [C#](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
 
 ## How to Discuss and Contribute
-Some of the best ways to contribute are to try things out, file issues, join in design conversations, and make pull-requests. Please read CONTRIBUTING.md before you begin for details on our code of conduct, as well as the process for submitting pull requests to us. Proposals for changes specific to RideXpress can be found here.
+Some of the best ways to contribute are to try things out, file issues, join in design conversations, and make pull-requests. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before you begin for details on our [code of conduct](CODE_OF_CONDUCT.md), as well as the process for submitting [pull requests](https://github.com/jtanaeki/RideXpress/pulls) to us. Proposals for changes and other issues specific to RideXpress can be found [here](https://github.com/jtanaeki/RideXpress/issues).
