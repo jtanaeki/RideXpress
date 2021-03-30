@@ -1,7 +1,7 @@
 # RideXpress <img align="right" width="400" height="267" src="RideXpress/Images/350zWheel.jpg">
 ### Incident Management Software System
 <br>
-<a href="CODE_OF_CONDUCT.md">
+<a href="https://www.contributor-covenant.org/">
     <img alt="Contributor Covenant" src="https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg" />
 </a>
 
