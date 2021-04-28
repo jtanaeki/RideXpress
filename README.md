@@ -1,4 +1,4 @@
-# RideXpress <img align="right" width="400" height="267" src="RideXpress/Images/350zWheel.jpg">
+# RideXpress 🚗 <img align="right" width="400" height="267" src="RideXpress/Images/350zWheel.jpg">
 ### Incident Management Software System
 <br>
 <a href="CODE_OF_CONDUCT.md">
