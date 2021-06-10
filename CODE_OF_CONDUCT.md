@@ -6,7 +6,7 @@ This repository has adopted the code of conduct defined by the Contributor Coven
 
 ### Preamble
 
-The .NET Foundation was created to foster an open, innovative and inclusive community around open source .NET. To clarify expected behaviour in our communities we have adopted the [Contributor Covenant](https://www.contributor-covenant.org/). This code of conduct has been adopted by [many other open source communities](https://www.contributor-covenant.org/adopters/) and we feel it expresses our values well.
+The .NET Foundation was created to foster an open, innovative and inclusive community around open source .NET. To clarify expected behaviour in our communities, we have adopted the [Contributor Covenant](https://www.contributor-covenant.org/). This code of conduct has been adopted by [many other open source communities](https://www.contributor-covenant.org/adopters/) and we feel it expresses our values well.
 
 ### Our Pledge
 
